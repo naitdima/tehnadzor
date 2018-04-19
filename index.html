@@ -3,13 +3,15 @@
   <head>
     <meta charset="UTF-8">
     <title>Учебный центр Технадзор</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
     <main class="page-content">
       <h1 class="visually-hidden">Образовательное учреждение дополнительного профессионального образования ООО «УЦТН»</h1>
-
-      <div class="container">
-        <section class="specialties">
+      <section class="specialties">
+        <div class="container">
           <h2 class="specialties__title">Дополнительное профессииональное образование рабочих специальностей по выгодной цене</h2>
           <p class="specialties__descr">Равным образом сложившаяся структура организации требуют от нас анализа системы обучения кадров, соответствует насущным потребностям. Задача организации, в особенности же новая модель организационной деятельности требуют определения и уточнения соответствующий условий активизации.</p>
           <ul class="specialties-list">
@@ -44,83 +46,105 @@
               <a class="specialties-list__link" href="#">Стропальщик</a>
             </li>
           </ul>
-        </section>
+        </div>
+      </section>
 
-        <section class="advantages">
+      <section class="advantages">
+        <div class="container">
           <h2 class="advantages__title">Почему клиенты выбрали именно нас?</h2>
           <ul class="advantages-list">
             <li class="advantages-list__item">
-              <a class="advantages-list__link" href="#">Адекватная стоимость курсов</a>
+              <a class="advantages-list__link" href="#">
+                <span class="advantages-list__link-descr">Адекватная стоимость курсов</span>
+              </a>
             </li>
             <li class="advantages-list__item">
-              <a class="advantages-list__link" href="#">Удобное расположение центра</a>
+              <a class="advantages-list__link" href="#">
+                <span class="advantages-list__link-descr">Удобное расположение центра</span>
+              </a>
             </li>
             <li class="advantages-list__item">
-              <a class="advantages-list__link" href="#">Высокий уровень обучения</a>
+              <a class="advantages-list__link" href="#">
+                <span class="advantages-list__link-descr">Высокий уровень обучения</span>
+              </a>
             </li>
             <li class="advantages-list__item">
-              <a class="advantages-list__link" href="#">Сертифицированные специалисты</a>
+              <a class="advantages-list__link" href="#">
+                <span class="advantages-list__link-descr">Сертифицированные специалисты</span>
+              </a>
             </li>
             <li class="advantages-list__item">
-              <a class="advantages-list__link" href="#">Современные оборудованные классы</a>
+              <a class="advantages-list__link" href="#">
+                <span class="advantages-list__link-descr">Современные оборудованные классы</span>
+              </a>
             </li>
             <li class="advantages-list__item">
-              <a class="advantages-list__link" href="#">Лицензии от Министерства образования</a>
+              <a class="advantages-list__link" href="#">
+                <span class="advantages-list__link-descr">Лицензии от Министерства образования</span>
+              </a>
             </li>
             <li class="advantages-list__item">
-              <a class="advantages-list__link" href="#">Гибкий график занятий</a>
+              <a class="advantages-list__link" href="#">
+                <span class="advantages-list__link-descr">Гибкий график занятий</span>
+              </a>
             </li>
             <li class="advantages-list__item">
-              <a class="advantages-list__link" href="#">Международный диплом об образовании</a>
+              <a class="advantages-list__link" href="#">
+                <span class="advantages-list__link-descr">Международный диплом об образовании</span>
+              </a>
             </li>
           </ul>
-        </section>
+        </div>
+      </section>
 
-        <section class="documents">
+      <section class="documents">
+        <div class="container">
           <h2 class="documents__title">Образцы выдаваемых документов</h2>
-          <div class="carousel">
+          <div class="carousel-wrap">
             <button class="carousel-btn  carousel-btn--prev">
               <span class="visually-hidden">Назад</span>
             </button>
-            <ul class="carousel-list">
-              <li class="carousel-list__item">
-                <img src="img/document.png" alt="ФСБ России" width="200" height="200">
-              </li>
-              <li class="carousel-list__item">
-                <img src="img/document.png" alt="ФСБ России" width="200" height="200">
-              </li>
-              <li class="carousel-list__item">
-                <img src="img/document.png" alt="ФСБ России" width="200" height="200">
-              </li>
-              <li class="carousel-list__item">
-                <img src="img/document.png" alt="ФСБ России" width="200" height="200">
-              </li>
-              <li class="carousel-list__item">
-                <img src="img/document.png" alt="ФСБ России" width="200" height="200">
-              </li>
-              <li class="carousel-list__item">
-                <img src="img/document.png" alt="ФСБ России" width="200" height="200">
-              </li>
-              <li class="carousel-list__item">
-                <img src="img/document.png" alt="ФСБ России" width="200" height="200">
-              </li>
-              <li class="carousel-list__item">
-                <img src="img/document.png" alt="ФСБ России" width="200" height="200">
-              </li>
-              <li class="carousel-list__item">
-                <img src="img/document.png" alt="ФСБ России" width="200" height="200">
-              </li>
-            </ul>
-            <button class="carousel-btn  carousel-btn--prev">
+            <div class="carousel">
+              <ul class="carousel-list">
+                <li class="carousel-list__item">
+                  <img class="carousel-list__item-img" src="img/document.png" alt="ФСБ России" width="200" height="200">
+                </li>
+                <li class="carousel-list__item">
+                  <img class="carousel-list__item-img" src="img/document.png" alt="ФСБ России" width="200" height="200">
+                </li>
+                <li class="carousel-list__item">
+                  <img class="carousel-list__item-img" src="img/document.png" alt="ФСБ России" width="200" height="200">
+                </li>
+                <li class="carousel-list__item">
+                  <img class="carousel-list__item-img" src="img/document.png" alt="ФСБ России" width="200" height="200">
+                </li>
+                <li class="carousel-list__item">
+                  <img class="carousel-list__item-img" src="img/document.png" alt="ФСБ России" width="200" height="200">
+                </li>
+                <li class="carousel-list__item">
+                  <img class="carousel-list__item-img" src="img/document.png" alt="ФСБ России" width="200" height="200">
+                </li>
+                <li class="carousel-list__item">
+                  <img class="carousel-list__item-img" src="img/document.png" alt="ФСБ России" width="200" height="200">
+                </li>
+                <li class="carousel-list__item">
+                  <img class="carousel-list__item-img" src="img/document.png" alt="ФСБ России" width="200" height="200">
+                </li>
+                <li class="carousel-list__item">
+                  <img class="carousel-list__item-img" src="img/document.png" alt="ФСБ России" width="200" height="200">
+                </li>
+              </ul>
+            </div>
+            <button class="carousel-btn  carousel-btn--next">
               <span class="visually-hidden">Вперед</span>
             </button>
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
     </main>
 
     <footer class="page-footer">
-       <div class="container">
+       <div class="page-footer__wrap">
         <section class="logo  page-footer__logo">
           <img class="logo__img" src="img/logo-white.svg" width="61" height="50">
           <div class="logo__wrap">
