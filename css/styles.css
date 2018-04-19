@@ -106,7 +106,7 @@ a {
 .specialties__descr {
   width: 975px;
   margin: 0;
-
+  margin-bottom: 50px;
   font-weight: 300;
   font-size: 18px;
   line-height: 32px;
