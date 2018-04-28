@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Учебный центр Технадзор</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
   </head>
@@ -13,7 +12,7 @@
       <div class="page-header__wrap">
         <div class="container  page-header__container">
           <section class="page-header__logo">
-            <img class="page-header__logo-img" src="img/logo-black.svg" width="339" height="57">
+            <img class="page-header__logo-img" src="img/logo-black.svg" alt="Лого" width="339" height="57">
           </section>
           <section class="contacts-col">
             <div class="contacts-col-wrap">
@@ -77,9 +76,9 @@
           </section>
           <form class="main-form" action="#" method="post">
             <h2 class="main-form__title">Запишитесь на курсы профессионального образования</h2>
-            <input class="main-form__input" type="text" name="Name" placeholder="Ваше Имя">
-            <input class="main-form__input" type="tel" name="Phone" placeholder="+7 (___) ___ - __ - __">
-            <input class="main-form__input" type="email" name="Email" placeholder="E-mail адрес">
+            <input class="main-form__input" type="text" name="name" placeholder="Ваше Имя">
+            <input class="main-form__input" type="tel" name="phone" placeholder="+7 (___) ___ - __ - __">
+            <input class="main-form__input" type="email" name="email" placeholder="E-mail адрес">
             <button class="main-form__btn" type="submit">Отправить</button>
           </form>
         </div>
@@ -264,6 +263,12 @@
                   <time class="slider-list__item-time" datetime="2018-01-16">16.01.2018</time>
                   <p class="slider-list__item-descr">Равным образом постоянное информационно-пропагандистское обеспечение нашей деятельности представляет собой интересный эксперимент проверки позиций, занимаемых участниками в отношении поставленных задач. Задача организации, в особенности же реализация намеченных плановых заданий способствует подготовки и реализации форм развития. С другой стороны консультация с широким активом требуют от нас анализа дальнейших направлений развития.</p>
                 </li>
+                <li class="slider-list__item">
+                  <img class="slider-list__item-img" src="img/license.jpg" alt="Лицензия" width="146" height="206">
+                  <h3 class="slider-list__item-title">ООО &#171;КРАСНОЕ СОЛНЫШКО&#187;</h3>
+                  <time class="slider-list__item-time" datetime="2018-01-16">16.01.2018</time>
+                  <p class="slider-list__item-descr">Равным образом постоянное информационно-пропагандистское обеспечение нашей деятельности представляет собой интересный эксперимент проверки позиций, занимаемых участниками в отношении поставленных задач. Задача организации, в особенности же реализация намеченных плановых заданий способствует подготовки и реализации форм развития. С другой стороны консультация с широким активом требуют от нас анализа дальнейших направлений развития.</p>
+                </li>
               </ul>
             </div>
             <button class="slider-btn  slider-btn--next">
@@ -289,7 +294,7 @@
           </ul>
         </div>
         <section class="main-map">
-          <iframe class="main-map__iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.3100945061924!2d37.7136823157513!3d55.77048599809571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b5355d416b4255%3A0x4a1fdc3a57c4c9ee!2z0YPQuy4g0JHQvtGA0L7QstCw0Y8sIDcg0YHRgtGA0L7QtdC90LjQtSAxMCwg0JzQvtGB0LrQstCwLCAxMTEwMjA!5e0!3m2!1sru!2sru!4v1524848150608" width="100%" height="440"></iframe>
+          <iframe class="main-map__iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.3100945061924!2d37.7136823157513!3d55.77048599809571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b5355d416b4255%3A0x4a1fdc3a57c4c9ee!2z0YPQuy4g0JHQvtGA0L7QstCw0Y8sIDcg0YHRgtGA0L7QtdC90LjQtSAxMCwg0JzQvtGB0LrQstCwLCAxMTEwMjA!5e0!3m2!1sru!2sru!4v1524848150608" width="1920" height="440"></iframe>
         </section>
       </section>
     </main>
@@ -297,7 +302,7 @@
     <footer class="page-footer">
       <div class="page-footer__wrap">
         <section class="logo  page-footer__logo">
-          <img class="logo__img" src="img/logo-white.svg" width="61" height="50">
+          <img class="logo__img" src="img/logo-white.svg" alt="Лого" width="61" height="50">
           <div class="logo__wrap">
             <h3 class="logo__title">Учебный центр технадзор</h3>
             <p class="logo__descr">Образовательное учреждение Дополнительного профессионального образования ООО «УЦТН»</p>
@@ -324,7 +329,7 @@
       <section class="popup  popup-ok">
         <div class="popup__wrap">
           <p class="popup__descr">Сообщение успешно отправлено!</p>
-          <button class="popup__close">
+          <button class="popup__close  popup__close--ok">
             <span class="visually-hidden">Закрыть</span>
           </button>
         </div>
@@ -332,12 +337,13 @@
       <section class="popup  popup-error">
         <div class="popup__wrap">
           <p class="popup__descr">Сообщение не отправлено. Попробуйте ещё раз</p>
-          <button class="popup__close">
+          <button class="popup__close  popup__close--error">
             <span class="visually-hidden">Закрыть</span>
           </button>
         </div>
       </section>
     </section>
+    <script src="js/scripts.js"></script>
   </body>
 </html>
 

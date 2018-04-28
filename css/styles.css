@@ -1,3 +1,35 @@
+@font-face {
+  font-weight: 300;
+  font-family: "Roboto";
+  font-style: normal;
+
+  src: url("../fonts/Roboto-300.woff2") format("woff2"), url("../fonts/Roboto-300.woff") format("woff");
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: "Roboto";
+  font-style: normal;
+
+  src: url("../fonts/Roboto-400.woff2") format("woff2"), url("../fonts/Roboto-400.woff") format("woff");
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: "Roboto";
+  font-style: normal;
+
+  src: url("../fonts/Roboto-500.woff2") format("woff2"), url("../fonts/Roboto-500.woff") format("woff");
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: "Roboto";
+  font-style: normal;
+
+  src: url("../fonts/Roboto-700.woff2") format("woff2"), url("../fonts/Roboto-700.woff") format("woff");
+}
+
 html {
   box-sizing: border-box;
 }
@@ -263,7 +295,7 @@ a {
   justify-content: space-between;
 
   background-color: #72b748;
-  background-image: url(../img/pattern-bg.jpg);
+  background-image: url("../img/pattern-bg.jpg");
 }
 
 .page-content__container {
@@ -519,7 +551,7 @@ a {
   width: 40px;
   height: 40px;
 
-  background-image: url(../img/tool-icon.svg);
+  background-image: url("../img/tool-icon.svg");
   transform: translate(-50%);
 }
 
@@ -620,7 +652,6 @@ a {
 .carousel-btn--next::after {
   transform: rotate(-45deg);
 }
-
 
 .carousel-list {
   width: 9999px;
@@ -732,6 +763,7 @@ a {
   border-radius: 50%;
   transform: translate(0, -50%);
   cursor: pointer;
+  z-index: 1;
 }
 
 .slider-btn--prev {
@@ -797,7 +829,7 @@ a {
   flex-wrap: wrap;
   float: left;
   width: 888px;
-  margin-right: 92px;
+  margin-right: 100px;
   margin-left: 87px;
   padding-top: 58px;
   padding-right: 100px;
@@ -1020,21 +1052,21 @@ a {
   width: 12px;
   height: 12px;
 
-  background-image: url(../img/phone-icon-white.svg);
+  background-image: url("../img/phone-icon-white.svg");
 }
 
 .contacts-row-item--address::before {
   width: 9px;
   height: 12px;
 
-  background-image: url(../img/pin-icon-white.svg);
+  background-image: url("../img/pin-icon-white.svg");
 }
 
 .contacts-row-item--email::before {
   width: 15px;
   height: 12px;
 
-  background-image: url(../img/email-icon-white.svg);
+  background-image: url("../img/email-icon-white.svg");
 }
 
 .contacts-row-item::after {
@@ -1480,7 +1512,7 @@ a {
   height: 400px;
   margin-bottom: 56px;
 
-  background-image: url(../img/contacts-map.jpg);
+  background-image: url("../img/contacts-map.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -1573,6 +1605,7 @@ a {
   left: 0;
   z-index: 10;
 
+  display: none;
   width: 100%;
   height: 100%;
 
@@ -1588,6 +1621,7 @@ a {
   top: 50%;
   left: 50%;
 
+  display: none;
   width: 575px;
 
   background-color: #ffffff;
@@ -1642,7 +1676,7 @@ a {
   width: 22px;
   height: 16px;
 
-  background-image: url(../img/popup-ok.svg);
+  background-image: url("../img/popup-ok.svg");
 }
 
 .popup-error .popup__wrap::after {
@@ -1651,7 +1685,7 @@ a {
   width: 18px;
   height: 18px;
 
-  background-image: url(../img/popup-error.svg);
+  background-image: url("../img/popup-error.svg");
 }
 
 .popup__descr {
